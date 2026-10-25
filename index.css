@@ -1,0 +1,182 @@
+body{
+    background-color:  hsl(30, 24%, 93%);
+}
+.container{
+    display: flex;
+}
+.container1{
+    width: 20%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo h1{
+    color: hsl(15, 69%, 37%);
+}
+.logo img{
+    width: 45px;
+}
+.mn{
+    display: flex;
+    gap: 5px;
+}
+.h{
+    margin-left: 100px;
+}
+.temp{
+    margin-top: 400px;
+    background-color: hsl(44, 84%, 75%);
+    padding: 15px;
+    border-radius: 20px;
+    height: 115px;
+    width: 225px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sun{
+position: absolute;
+left: 200px;
+bottom: 80px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+   width: 80%;
+   padding: 50px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lft span{
+color: hsl(15, 69%, 37%);
+}
+.lft p{
+    color: gray;
+}
+.wht {
+    border-radius: 40px;
+    border: solid black 1px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blk {
+    border-radius: 40px;
+    border: solid black 1px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.cards{
+display: flex;
+justify-content: center;
+}
+.card1{
+    position: relative;
+width: 500px;
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+transform: rotate(-5deg);
+}
+.date{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.date p{
+    color:  grey;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.prc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card2{
+width: 500px;
+background-color:  hsl(15, 69%, 37%);
+padding: 20px;
+border-radius: 20px;
+color: white;
+transform: rotate(5deg);
+}
+.card2 p{
+color: wheat;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+}
+.stats{
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+}
+.stat{
+    background-color: white;
+    width: 1000px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.top3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key{
+    display: flex;
+    color:hsl(15, 69%, 37%) ;
+}
+h3{
+    color: hsl(15, 69%, 37%);
+}
+.btn{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+@media(max-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: none;
+    }
+    .container2{
+        margin-bottom: 500px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .stats{
+        display: flex;
+        flex-direction: column;
+    }
+}
